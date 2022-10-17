@@ -7,9 +7,11 @@ import { NoteComponent } from './note/note.component';
 import { ClassificationComponent } from './classification/classification.component';
 import { ProfileEtudiantComponent } from './profile-etudiant/profile-etudiant.component';
 import { EtudiantRouting } from './etudiant.routing';
-
-
-
+import { HttpClientModule } from '@angular/common/http'
+import { CoreModule } from '../core/core.module';
+import { NO_ERRORS_SCHEMA } from '@angular/compiler';
+import {MatTableModule} from '@angular/material/table';
+import { ExempleTableComponent } from './exemple-table/exemple-table.component'
 @NgModule({
   declarations: [
     ListEtudiantComponent,
@@ -17,11 +19,18 @@ import { EtudiantRouting } from './etudiant.routing';
     UpdateEtudiantComponent,
     NoteComponent,
     ClassificationComponent,
-    ProfileEtudiantComponent
+    ProfileEtudiantComponent,
+    ExempleTableComponent
   ],
   imports: [
     CommonModule,
-    EtudiantRouting
+    EtudiantRouting,
+    HttpClientModule,
+    CoreModule,
+    MatTableModule
+  ],
+  schemas:[
+    // NO_ERRORS_SCHEMA,
   ]
 })
 export class EtudiantModule { }
