@@ -12,13 +12,15 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(150deg,#21cdc3,#45c270, #21cdc3);
-    box-shadow: 0, 5px, 10px, rgb(0, 0, 0,.1);
+    /*background-color: #009fe3;*/
+    background: lightgrey;
     padding: 0px 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+    border-radius: 0  0 15px 15px;
+    box-shadow: 0px 6px 10px rgba(197, 195, 195, 0.486)
 }
 
 .image img{
@@ -35,7 +37,7 @@ header{
 }
 
 .navbar ul li a{
-    font-size: 20px;
+    font-size: 21px;
     padding: 20px;
     color: #333;
     display: block;
@@ -43,16 +45,18 @@ header{
 
 .navbar ul li a:hover{
     background: rgba(128, 128, 128, 0.329);
-    color:gold ;
+    /*color:gold ;*/
+    color: #f8a002;
     border-radius: 50px 50px 50px 50px;
     font-weight: bold;
+    font-style: italic;
 }
 
 .navbar ul li ul{
     position: absolute;
     left: 7px;
     width: 145px;
-    background: rgb(218, 218, 218);
+    background: lightgrey;
     display: none;
     text-align: center;
     border-radius: 0 0 5px 5px;
@@ -61,6 +65,7 @@ header{
 .navbar ul li ul li{
     width: 100%;
     border-top: 1px solid rgb(0, 0, 0,.1);
+    text-align: center;
 }
 
 .navbar ul li:focus-within > ul,
@@ -93,7 +98,7 @@ header label{
         top: 100%;
         left: 0;
         right: 0;
-        background: linear-gradient(150deg,#21cdc3,#45c270, #21cdc3);
+        background: lightgrey;
         border-top: 1px solid rgb(0, 0, 0,.1);
         display: none;
     }
