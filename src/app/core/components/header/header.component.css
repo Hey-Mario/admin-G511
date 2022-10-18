@@ -20,7 +20,7 @@ header{
     justify-content: space-between;
     z-index: 1000;
     border-radius: 0  0 15px 15px;
-    box-shadow: 0px 6px 10px rgba(197, 195, 195, 0.486)
+    box-shadow: 0px 6px 10px rgba(189, 187, 187, 0.486)
 }
 
 .image img{
@@ -44,10 +44,10 @@ header{
 }
 
 .navbar ul li a:hover{
-    background: rgba(128, 128, 128, 0.329);
+    background: gray;
     /*color:gold ;*/
     color: #f8a002;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 10px 10px 10px 10px ;
     font-weight: bold;
     font-style: italic;
 }
