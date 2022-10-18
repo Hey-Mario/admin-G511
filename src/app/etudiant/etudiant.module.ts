@@ -26,7 +26,7 @@ import { ResultatExamenComponent } from './resultat-examen/resultat-examen.compo
   imports: [
     CommonModule,
     EtudiantRouting,
-    MatTableModule
+    MatTableModule,
   ],
   schemas:[
     // NO_ERRORS_SCHEMA,
