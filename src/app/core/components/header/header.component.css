@@ -51,11 +51,12 @@ header{
 
 .navbar ul li ul{
     position: absolute;
-    left: 0;
+    left: 7px;
     width: 145px;
-    background: linear-gradient(150deg,#21cdc3,#45c270, #21cdc3);
+    background: rgb(218, 218, 218);
     display: none;
     text-align: center;
+    border-radius: 0 0 5px 5px;
 }
 
 .navbar ul li ul li{
