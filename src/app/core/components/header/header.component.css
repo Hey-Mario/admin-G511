@@ -21,10 +21,8 @@ header{
     z-index: 1000;
 }
 
-.logo{
-    font-weight: bold;
-    font-size: 25px;
-    color: #333;
+.image img{
+    width: 100px;
 }
 
 .navbar ul{
