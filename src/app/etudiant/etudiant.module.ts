@@ -24,7 +24,6 @@ import { ExempleTableComponent } from './exemple-table/exemple-table.component'
   imports: [
     CommonModule,
     EtudiantRouting,
-    CoreModule,
     MatTableModule
   ],
   schemas:[
