@@ -12,13 +12,14 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(150deg,#21cdc3,#45c270, #21cdc3);
-    box-shadow: 0, 5px, 10px, rgb(0, 0, 0,.1);
+    background: wheat;
+    box-shadow: 0px 6px 10px rgb(201, 199, 199);
     padding: 0px 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+    border-radius: 0  0 15px 15px;
 }
 
 .image img{
@@ -52,7 +53,7 @@ header{
     position: absolute;
     left: 7px;
     width: 145px;
-    background: rgb(218, 218, 218);
+    background: wheat;
     display: none;
     text-align: center;
     border-radius: 0 0 5px 5px;
@@ -94,7 +95,7 @@ header label{
         top: 100%;
         left: 0;
         right: 0;
-        background: linear-gradient(150deg,#21cdc3,#45c270, #21cdc3);
+        background: wheat;
         border-top: 1px solid rgb(0, 0, 0,.1);
         display: none;
     }
