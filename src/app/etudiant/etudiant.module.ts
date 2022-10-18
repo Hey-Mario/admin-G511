@@ -7,11 +7,11 @@ import { NoteComponent } from './note/note.component';
 import { ClassificationComponent } from './classification/classification.component';
 import { ProfileEtudiantComponent } from './profile-etudiant/profile-etudiant.component';
 import { EtudiantRouting } from './etudiant.routing';
-import { CoreModule } from '../core/core.module';
 import { NO_ERRORS_SCHEMA } from '@angular/compiler';
 import {MatTableModule} from '@angular/material/table';
 import { ExempleTableComponent } from './exemple-table/exemple-table.component';
-import { ResultatExamenComponent } from './resultat-examen/resultat-examen.component'
+import { ResultatExamenComponent } from './resultat-examen/resultat-examen.component';
+
 @NgModule({
   declarations: [
     ListEtudiantComponent,
@@ -21,7 +21,7 @@ import { ResultatExamenComponent } from './resultat-examen/resultat-examen.compo
     ClassificationComponent,
     ProfileEtudiantComponent,
     ExempleTableComponent,
-    ResultatExamenComponent
+    ResultatExamenComponent,
   ],
   imports: [
     CommonModule,

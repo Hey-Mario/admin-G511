@@ -12,8 +12,9 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    background: wheat;
-    box-shadow: 0px 6px 10px rgb(201, 199, 199);
+    /*background-color: #009fe3;*/
+    background: linear-gradient(150deg,#21cdc3,#45c270, #21cdc3);
+    box-shadow: 0, 5px, 10px, rgb(0, 0, 0,.1);
     padding: 0px 7%;
     display: flex;
     align-items: center;
@@ -44,7 +45,8 @@ header{
 
 .navbar ul li a:hover{
     background: rgba(128, 128, 128, 0.329);
-    color:gold ;
+    /*color:gold ;*/
+    color: #f8a002;
     border-radius: 50px 50px 50px 50px;
     font-weight: bold;
     font-style: italic;
