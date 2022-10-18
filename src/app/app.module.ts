@@ -1,6 +1,4 @@
-import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { FormGroup } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -18,9 +16,7 @@ import { CahierDeTexteComponent } from './cahier-de-texte/cahier-de-texte/cahier
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    HttpClientModule,
     FontAwesomeModule,
-    // FormGroup,
   ],
   providers: [],
   bootstrap: [AppComponent]

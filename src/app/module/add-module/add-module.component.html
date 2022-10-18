@@ -1,1 +1,19 @@
-<p>add-module works!</p>
+<div class="formulaire">
+    <form class="myform mx-auto" #formulaire="ngForm" [formGroup]="addForm" (submit)="enregistrer()">
+        <label for="code">Code</label>
+        <input type="text" name="code" formControlName="code" id="code" class="form-control">
+        <label for="nom">nom</label>
+        <input type="text" name="nom" formControlName="nom" id="nom" class="form-control">
+        <label for="volumeHoraire">Volume Horaire</label>
+        <input type="number" name="volumeHoraire" formControlName="volumeHoraire" id="volumeHoraire" class="form-control">
+        <label for="credit">credit</label>
+        <input type="number" name="credit" formControlName="credit" id="credit" class="form-control">
+        <label for="credit">Unité d'enseignement</label>
+        <select name="" id="" *ngFor="let ue of ues" formControlName="ue_id" class="form-control">
+          <option [value]=ue.id>{{ue.nom}}</option>
+        </select>
+        <div class="text-center mt-2">
+            <button class="btn btn-success" [disabled]="formulaire.invalid" type="submit">Enregistrer</button>
+        </div>
+    </form>
+</div>
