@@ -7,10 +7,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CahierDeTexteComponent } from './cahier-de-texte/cahier-de-texte/cahier-de-texte.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CahierDeTexteComponent
   ],
   imports: [
     BrowserModule,

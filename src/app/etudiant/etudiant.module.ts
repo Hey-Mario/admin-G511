@@ -10,7 +10,8 @@ import { EtudiantRouting } from './etudiant.routing';
 import { CoreModule } from '../core/core.module';
 import { NO_ERRORS_SCHEMA } from '@angular/compiler';
 import {MatTableModule} from '@angular/material/table';
-import { ExempleTableComponent } from './exemple-table/exemple-table.component'
+import { ExempleTableComponent } from './exemple-table/exemple-table.component';
+import { ResultatExamenComponent } from './resultat-examen/resultat-examen.component'
 @NgModule({
   declarations: [
     ListEtudiantComponent,
@@ -19,7 +20,8 @@ import { ExempleTableComponent } from './exemple-table/exemple-table.component'
     NoteComponent,
     ClassificationComponent,
     ProfileEtudiantComponent,
-    ExempleTableComponent
+    ExempleTableComponent,
+    ResultatExamenComponent
   ],
   imports: [
     CommonModule,
