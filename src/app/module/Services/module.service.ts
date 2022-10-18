@@ -18,11 +18,23 @@ export class ModuleService {
     return this.http.get<Module[]>(`${environment.apiUrl}modules`)
   }
 
+  getModule(id: number): Observable<Module>{
+    return this.http.get<Module>(`${environment.apiUrl}modules/${id}`)
+  }
+
   getAllUe(): Observable<Ue[]>{
     return this.http.get<Ue[]>(`${environment.apiUrl}ues`)
   }
 
   ajouter(data: any){
     return this.http.post(`${environment.apiUrl}modules`, data);
+  }
+
+  modifier(id: number, data: any){
+    return this.http.put(`${environment.apiUrl}modules/${id}`, data);
+  }
+
+  supprimer(id: number){
+    return this.http.delete(`${environment.apiUrl}modules/${id}`);
   }
 }

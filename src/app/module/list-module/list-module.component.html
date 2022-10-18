@@ -1,4 +1,5 @@
 <button class="btn btn-dark" routerLink="/module/add">Ajouter un module</button>
-<p>list-module works!</p>
 
-{{modules|json}}
+<ul *ngFor="let module of modules" class="list-group">
+    <li class="list-group-item">{{module.nom}} <button class="btn btn-warning" [routerLink]="[module.id + '/update']">Modifier</button><button class="mx-3 btn btn-danger" (click)="supprimer(module.id)">Supprimer</button></li>
+</ul>

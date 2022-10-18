@@ -25,4 +25,12 @@ export class ListModuleComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.subscription.unsubscribe();
   }
+
+  supprimer(id: number){
+    this.moduleService.supprimer(id).subscribe({
+      next: res => console.log(res),
+      error: e => console.log(e),
+      complete: () => console.log('ok')
+  })
+  }
 }
