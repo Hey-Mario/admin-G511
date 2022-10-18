@@ -1,0 +1,118 @@
+{
+    "ues": [
+        { "id": 1, "nom": "informatique programmation" },
+        { "id": 2, "nom": "informatique système et réseau" },
+        { "id": 3, "nom": "Mathématiques" },
+        { "id": 4, "nom": "Entreprise et communication" }
+    ],
+    "modules": [{
+            "id": 1,
+            "code": "INFO_140",
+            "nom": "Language C: Introduction",
+            "volumeHoraire": 39,
+            "credit": 2,
+            "ueId": 1
+        },
+        {
+            "id": 2,
+            "code": "INFO_150",
+            "nom": "Introduction aux bases de données",
+            "volumeHoraire": 39,
+            "credit": 2,
+            "ueId": 1
+        },
+        {
+            "id": 3,
+            "code": "INFO_110",
+            "nom": "Architecture des ordinateurs",
+            "volumeHoraire": 39,
+            "credit": 3,
+            "ueId": 2
+        },
+        {
+            "id": 4,
+            "code": "INFO_120",
+            "nom": "Systeme d'éxploitation niveau 1",
+            "volumeHoraire": 39,
+            "credit": 3,
+            "ueId": 2
+        },
+        {
+            "id": 6,
+            "code": "MATH_110",
+            "nom": "Analyse et Algebre",
+            "volumeHoraire": 30,
+            "credit": 2,
+            "ueId": 3
+        },
+        {
+            "id": 7,
+            "code": "MATH_120",
+            "nom": "Recherche Opérationnelle",
+            "volumeHoraire": 39,
+            "credit": 2,
+            "ueId": 3
+        },
+        {
+            "id": 8,
+            "code": "ENTR_110",
+            "nom": "fonctionnement des organisations",
+            "volumeHoraire": 21,
+            "credit": 1.5,
+            "ueId": 4
+        },
+        {
+            "id": 9,
+            "code": "LANG_110",
+            "nom": "Français",
+            "volumeHoraire": 30,
+            "credit": 2,
+            "ueId": 4
+        },
+        {
+            "id": 10,
+            "code": "PROJ_110",
+            "nom": "Travaux de veilles technologiques",
+            "volumeHoraire": 0,
+            "credit": 1,
+            "ueId": 4
+        }
+    ],
+    "etudiants": [{
+            "id": 1,
+            "nom": "John",
+            "prenom": "Cena",
+            "email": "cena@esti.mg",
+            "dateDeNaissance": "1998-01-02",
+            "contact": "0340315456",
+            "adresse": "IVH 142 Amboma"
+        },
+        {
+            "id": 2,
+            "nom": "Chris",
+            "prenom": "tine",
+            "email": "tine@esti.mg",
+            "dateDeNaissance": "2004-03-12",
+            "contact": "0345135122",
+            "adresse": "JH 42 Ambomandroso"
+        },
+        {
+            "id": 3,
+            "nom": "Helton",
+            "prenom": "joe",
+            "email": "joe@esti.mg",
+            "dateDeNaissance": "2003-11-02",
+            "contact": "0321351515",
+            "adresse": "TA 01 Ambodivona"
+        },
+        {
+            "id": 4,
+            "nom": "Barbie",
+            "prenom": "princesse",
+            "email": "princesse@esti.mg",
+            "dateDeNaissance": "2006-01-01",
+            "contact": "0334853152",
+            "adresse": "CH Ambohidroa"
+        }
+    ]
+}

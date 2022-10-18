@@ -1,4 +1,6 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +15,8 @@ import { CoreModule } from './core/core.module';
     BrowserModule,
     AppRoutingModule,
     CoreModule,
+    HttpClientModule,
+    // FormGroup,
   ],
   providers: [],
   bootstrap: [AppComponent]
