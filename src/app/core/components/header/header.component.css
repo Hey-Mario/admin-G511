@@ -45,6 +45,7 @@ header{
     background: rgba(128, 128, 128, 0.329);
     color:gold ;
     border-radius: 50px 50px 50px 50px;
+    font-weight: bold;
 }
 
 .navbar ul li ul{

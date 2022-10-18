@@ -8,24 +8,18 @@
 
     <nav class="navbar">
         <ul>
-            <li><a href="#">DashBoard</a></li>
-            <li><a href="#">Enseignant +</a>
+            <li><a routerLink="/dashboard">DashBoard</a></li>
+            <li><a routerLink="/enseignant">Enseignant</a></li>
+            <li><a routerLink="/etudiant">Etudiant +</a>
                 <ul>
-                    <li><a href="#">Liste</a></li>
-                    <li><a href="#">Facture</a></li>
-                    <li><a href="#">Attestation</a></li>
-                    <li><a href="#">Cahier de Texte</a></li>
+                    <li><a routerLink="/etudiant">Liste</a></li>
+                    <li><a routerLink="/note">Résultat examen</a></li>
+                    <li><a routerLink="/classification">Classification</a></li>
                 </ul>
             </li>
-            <li><a href="#">Etudiant +</a>
-                <ul>
-                    <li><a href="#">Liste</a></li>
-                    <li><a href="#">Résultat examen</a></li>
-                    <li><a href="#">Classification</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Salle</a></li>
-            <li><a href="#">Module</a></li>
+            <li><a routerLink="/salle">Salle</a></li>
+            <li><a routerLink="/module">Module</a></li>
+            <li><a routerLink="/cahierTexte">Cahier de Texte</a></li>
         </ul>
     </nav>
     
